@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CSCPushSDK'
-  s.version          = '0.6.0'
+  s.version          = '0.7.0'
   s.summary          = 'CSCPush SDK CocoaPods集成库.'
 
 # This description is used to generate tags and improve search results.

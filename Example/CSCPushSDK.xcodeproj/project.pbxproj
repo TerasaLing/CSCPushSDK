@@ -22,6 +22,7 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		841F906E2A36B41D001EE6CC /* CSCTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 841F906D2A36B41D001EE6CC /* CSCTestController.m */; };
+		841F90712A36EC60001EE6CC /* CSCPushSDKDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 841F90702A36EC60001EE6CC /* CSCPushSDKDelegate.m */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		A6340B41905155FCB35C561C /* libPods-CSCPushSDK_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 56D5A4C3D4D99D353E7E1EA5 /* libPods-CSCPushSDK_Tests.a */; };
 		F7A1805AB05F66A71F9E8FBA /* libPods-CSCPushSDK_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C854E66EE2664F3E9BBD4A47 /* libPods-CSCPushSDK_Example.a */; };
@@ -63,6 +64,8 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		841F906C2A36B41D001EE6CC /* CSCTestController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CSCTestController.h; path = ../../CSCPushSDK/Classes/CSCTestController.h; sourceTree = "<group>"; };
 		841F906D2A36B41D001EE6CC /* CSCTestController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CSCTestController.m; path = ../../CSCPushSDK/Classes/CSCTestController.m; sourceTree = "<group>"; };
+		841F906F2A36EC60001EE6CC /* CSCPushSDKDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CSCPushSDKDelegate.h; path = ../../CSCPushSDK/Classes/CSCPushSDKDelegate.h; sourceTree = "<group>"; };
+		841F90702A36EC60001EE6CC /* CSCPushSDKDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CSCPushSDKDelegate.m; path = ../../CSCPushSDK/Classes/CSCPushSDKDelegate.m; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A17193E8E2D8050F8B711948 /* Pods-CSCPushSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CSCPushSDK_Example.debug.xcconfig"; path = "Target Support Files/Pods-CSCPushSDK_Example/Pods-CSCPushSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		C854E66EE2664F3E9BBD4A47 /* libPods-CSCPushSDK_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CSCPushSDK_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -156,6 +159,8 @@
 				6003F594195388D20070C39A /* Supporting Files */,
 				841F906C2A36B41D001EE6CC /* CSCTestController.h */,
 				841F906D2A36B41D001EE6CC /* CSCTestController.m */,
+				841F906F2A36EC60001EE6CC /* CSCPushSDKDelegate.h */,
+				841F90702A36EC60001EE6CC /* CSCPushSDKDelegate.m */,
 			);
 			name = "Example for CSCPushSDK";
 			path = CSCPushSDK;
@@ -353,6 +358,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				841F90712A36EC60001EE6CC /* CSCPushSDKDelegate.m in Sources */,
 				6003F59E195388D20070C39A /* CSCAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* CSCViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
