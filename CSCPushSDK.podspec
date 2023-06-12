@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CSCPushSDK'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'CSCPush SDK CocoaPods集成库.'
 
 # This description is used to generate tags and improve search results.
@@ -36,7 +36,7 @@ TODO: Add long description of the pod here.
   #   'CSCPushSDK' => ['CSCPushSDK/Assets/*.png']
   # }
 
-   s.public_header_files = 'Pod/Classes/**/*.h'
+#   s.public_header_files = 'Pod/Classes/**/*.h'
    s.frameworks = 'UIKit', 'MapKit','SystemConfiguration','Security'
    # 所需的library，多个用逗号隔开
    s.ios.libraries = 'sqlite3.0','c++','resolv'
