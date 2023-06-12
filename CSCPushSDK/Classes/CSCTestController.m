@@ -12,7 +12,4 @@
 -(void)testPrint{
     NSLog(@"CSC Push SDK pod create successful!");
 }
--(void)testPrint1{
-    NSLog(@"CSC Push SDK pod create successful!!");
-}
 @end
