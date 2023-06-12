@@ -41,6 +41,7 @@ TODO: Add long description of the pod here.
    s.ios.vendored_frameworks = 'CSCPushSDK.xcframework'
   # s.dependency 'AFNetworking', '~> 2.3'
   s.static_framework = true
+  s.pod_target_xcconfig = {'VALID_ARCHS' => 'x86_64 armv7 arm64'}
   s.dependency 'GTCommonSDK', '>= 3.0.3.0'
   s.dependency 'GTSDK', '~> 3.0.0.0'
 end
