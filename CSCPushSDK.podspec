@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CSCPushSDK'
-  s.version          = '0.4.0'
+  s.version          = '0.5.0'
   s.summary          = 'CSCPush SDK CocoaPods集成库.'
 
 # This description is used to generate tags and improve search results.
@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '10.0'
 
-#  s.source_files = 'CSCPushSDK/Classes/**/*'
+  s.source_files = 'CSCPushSDK/Classes/**/*'
   
   # s.resource_bundles = {
   #   'CSCPushSDK' => ['CSCPushSDK/Assets/*.png']
