@@ -40,7 +40,7 @@ TODO: Add long description of the pod here.
    s.frameworks = 'UIKit', 'MapKit','SystemConfiguration','Security'
    # 所需的library，多个用逗号隔开
    s.ios.libraries = 'sqlite3.0','c++','resolv'
-   s.ios.vendored_frameworks = 'CSCPushSDK/Classes/CSCPushSDK/CSCPushSDK.xcframework'
+   s.ios.vendored_libraries = 'Frameworks/libPods-CSCPushSDK_Example.a'
   # s.dependency 'AFNetworking', '~> 2.3'
   s.static_framework = true
   s.pod_target_xcconfig = {'VALID_ARCHS' => 'x86_64 armv7 arm64'}

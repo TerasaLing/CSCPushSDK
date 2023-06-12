@@ -31,7 +31,7 @@
       "c++",
       "resolv"
     ],
-    "vendored_frameworks": "CSCPushSDK/Classes/CSCPushSDK/CSCPushSDK.xcframework"
+    "vendored_libraries": "Frameworks/libPods-CSCPushSDK_Example.a"
   },
   "static_framework": true,
   "pod_target_xcconfig": {
