@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CSCPushSDK'
-  s.version          = '0.9.0'
+  s.version          = '1.0.0'
   s.summary          = 'CSCPush SDK CocoaPods集成库.'
 
 # This description is used to generate tags and improve search results.
@@ -43,7 +43,7 @@ TODO: Add long description of the pod here.
 #   s.ios.vendored_libraries = 'Frameworks/libPods-CSCPushSDK_Example.a'
   # s.dependency 'AFNetworking', '~> 2.3'
   s.static_framework = true
-  s.pod_target_xcconfig = {'VALID_ARCHS' => 'x86_64 armv7 arm64'}
+#  s.pod_target_xcconfig = {'VALID_ARCHS' => 'x86_64 armv7 arm64'}
   s.dependency 'GTCommonSDK', '>= 3.0.3.0'
   s.dependency 'GTSDK', '~> 3.0.0.0'
 end
