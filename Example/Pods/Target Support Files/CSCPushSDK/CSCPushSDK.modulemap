@@ -1,6 +1,0 @@
-framework module CSCPushSDK {
-  umbrella header "CSCPushSDK-umbrella.h"
-
-  export *
-  module * { export * }
-}

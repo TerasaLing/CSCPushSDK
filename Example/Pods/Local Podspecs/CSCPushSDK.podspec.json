@@ -1,6 +1,6 @@
 {
   "name": "CSCPushSDK",
-  "version": "0.1.0",
+  "version": "0.6.0",
   "summary": "CSCPush SDK CocoaPods集成库.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/TerasaLing/CSCPushSDK",
@@ -13,12 +13,12 @@
   },
   "source": {
     "git": "https://github.com/TerasaLing/CSCPushSDK.git",
-    "tag": "0.1.0"
+    "tag": "0.6.0"
   },
   "platforms": {
     "ios": "10.0"
   },
-  "public_header_files": "Pod/Classes/**/*.h",
+  "source_files": "CSCPushSDK/Classes/**/*",
   "frameworks": [
     "UIKit",
     "MapKit",
@@ -30,8 +30,7 @@
       "sqlite3.0",
       "c++",
       "resolv"
-    ],
-    "vendored_libraries": "Frameworks/libPods-CSCPushSDK_Example.a"
+    ]
   },
   "static_framework": true,
   "pod_target_xcconfig": {

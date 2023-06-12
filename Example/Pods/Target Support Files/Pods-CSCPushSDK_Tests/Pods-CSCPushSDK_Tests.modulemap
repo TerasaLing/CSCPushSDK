@@ -1,6 +1,0 @@
-framework module Pods_CSCPushSDK_Tests {
-  umbrella header "Pods-CSCPushSDK_Tests-umbrella.h"
-
-  export *
-  module * { export * }
-}
