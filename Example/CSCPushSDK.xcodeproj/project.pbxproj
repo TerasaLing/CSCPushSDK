@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2F503DDD97DF83E9E84733F1 /* Pods_CSCPushSDK_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F499C696A4B498DD99B88C7 /* Pods_CSCPushSDK_Tests.framework */; };
-		570DCA804BBBFF37717B4548 /* Pods_CSCPushSDK_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D271EED4DE2305BE7E621250 /* Pods_CSCPushSDK_Example.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -24,6 +22,8 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		A6340B41905155FCB35C561C /* libPods-CSCPushSDK_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 56D5A4C3D4D99D353E7E1EA5 /* libPods-CSCPushSDK_Tests.a */; };
+		F7A1805AB05F66A71F9E8FBA /* libPods-CSCPushSDK_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C854E66EE2664F3E9BBD4A47 /* libPods-CSCPushSDK_Example.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +39,7 @@
 /* Begin PBXFileReference section */
 		04C032C7DEE82848D4124B95 /* Pods-CSCPushSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CSCPushSDK_Example.release.xcconfig"; path = "Target Support Files/Pods-CSCPushSDK_Example/Pods-CSCPushSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
 		53A5C9F4E475F9D3A2D929A5 /* Pods-CSCPushSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CSCPushSDK_Tests.debug.xcconfig"; path = "Target Support Files/Pods-CSCPushSDK_Tests/Pods-CSCPushSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		56D5A4C3D4D99D353E7E1EA5 /* libPods-CSCPushSDK_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CSCPushSDK_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* CSCPushSDK_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CSCPushSDK_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -60,13 +61,12 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8F499C696A4B498DD99B88C7 /* Pods_CSCPushSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CSCPushSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A17193E8E2D8050F8B711948 /* Pods-CSCPushSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CSCPushSDK_Example.debug.xcconfig"; path = "Target Support Files/Pods-CSCPushSDK_Example/Pods-CSCPushSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		C854E66EE2664F3E9BBD4A47 /* libPods-CSCPushSDK_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CSCPushSDK_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEECC4C0CC51703ABF1DB135 /* Pods-CSCPushSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CSCPushSDK_Tests.release.xcconfig"; path = "Target Support Files/Pods-CSCPushSDK_Tests/Pods-CSCPushSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		D271EED4DE2305BE7E621250 /* Pods_CSCPushSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CSCPushSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D3EAFA0BE23BF8853727F85D /* CSCPushSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = CSCPushSDK.podspec; path = ../CSCPushSDK.podspec; sourceTree = "<group>"; };
-		F07360448B783ACB9B0D6797 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		F208F83D592410846900B9A1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		D3EAFA0BE23BF8853727F85D /* CSCPushSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CSCPushSDK.podspec; path = ../CSCPushSDK.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F07360448B783ACB9B0D6797 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		F208F83D592410846900B9A1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +77,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				570DCA804BBBFF37717B4548 /* Pods_CSCPushSDK_Example.framework in Frameworks */,
+				F7A1805AB05F66A71F9E8FBA /* libPods-CSCPushSDK_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +88,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				2F503DDD97DF83E9E84733F1 /* Pods_CSCPushSDK_Tests.framework in Frameworks */,
+				A6340B41905155FCB35C561C /* libPods-CSCPushSDK_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,7 +103,6 @@
 				53A5C9F4E475F9D3A2D929A5 /* Pods-CSCPushSDK_Tests.debug.xcconfig */,
 				CEECC4C0CC51703ABF1DB135 /* Pods-CSCPushSDK_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -135,8 +134,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				D271EED4DE2305BE7E621250 /* Pods_CSCPushSDK_Example.framework */,
-				8F499C696A4B498DD99B88C7 /* Pods_CSCPushSDK_Tests.framework */,
+				C854E66EE2664F3E9BBD4A47 /* libPods-CSCPushSDK_Example.a */,
+				56D5A4C3D4D99D353E7E1EA5 /* libPods-CSCPushSDK_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -208,7 +207,6 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				8C3472256F28CB7D3AC9E666 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -258,6 +256,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -315,24 +314,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		8C3472256F28CB7D3AC9E666 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CSCPushSDK_Example/Pods-CSCPushSDK_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/CSCPushSDK/CSCPushSDK.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CSCPushSDK.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CSCPushSDK_Example/Pods-CSCPushSDK_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		AF94665596E1282220B5EF98 /* [CP] Check Pods Manifest.lock */ = {

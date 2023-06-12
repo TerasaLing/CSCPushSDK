@@ -1,0 +1,32 @@
+PODS:
+  - CSCPushSDK (0.1.0):
+    - GTCommonSDK (>= 3.0.3.0)
+    - GTSDK (~> 3.0.0.0)
+  - GTCommonSDK (3.0.4.0):
+    - ZXSDK
+  - GTSDK (3.0.0.0):
+    - GTCommonSDK (>= 3.0.3.0)
+  - ZXSDK (3.2.4)
+
+DEPENDENCIES:
+  - CSCPushSDK (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - GTCommonSDK
+    - GTSDK
+    - ZXSDK
+
+EXTERNAL SOURCES:
+  CSCPushSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CSCPushSDK: 90d25f1b76b5ab7a5fac32fd5b273572f4eef3e8
+  GTCommonSDK: 88f22c2db467f2a117863d6070f3fcb8947658d1
+  GTSDK: 9ddb00161546cf5d5c03befb383d5928e9254f07
+  ZXSDK: 145a89f90f11e18e4fe62fe43175a60ade342ba8
+
+PODFILE CHECKSUM: 5d774cd85449e9cf478a5cef866f6a4d7bfd62bb
+
+COCOAPODS: 1.12.1

@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'CSCPushSDK'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of CSCPushSDK.'
+  s.summary          = 'CSCPush SDK CocoaPods集成库.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -30,13 +30,17 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'CSCPushSDK/Classes/**/*'
+#  s.source_files = 'CSCPushSDK/Classes/**/*'
   
   # s.resource_bundles = {
   #   'CSCPushSDK' => ['CSCPushSDK/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+   s.public_header_files = 'Pod/Classes/**/*.h'
+   s.frameworks = 'UIKit', 'MapKit'
+   s.ios.vendored_frameworks = 'CSCPushSDK.xcframework'
   # s.dependency 'AFNetworking', '~> 2.3'
+  s.static_framework = true
+  s.dependency 'GTCommonSDK', '>= 3.0.3.0'
+  s.dependency 'GTSDK', '~> 3.0.0.0'
 end
