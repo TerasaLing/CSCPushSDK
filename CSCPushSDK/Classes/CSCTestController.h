@@ -11,7 +11,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface CSCTestController : NSObject
--(void)testPrint;
++(void)testPrint;
 @end
 
 NS_ASSUME_NONNULL_END

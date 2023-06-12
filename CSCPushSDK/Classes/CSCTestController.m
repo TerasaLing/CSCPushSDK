@@ -9,7 +9,7 @@
 #import "CSCTestController.h"
 
 @implementation CSCTestController
--(void)testPrint{
++(void)testPrint{
     NSLog(@"CSC Push SDK pod create successful!");
 }
 @end
